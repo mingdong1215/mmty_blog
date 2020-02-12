@@ -1,24 +1,30 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+This is a hobby project i built while learning ROR.
 
-* Ruby version
+To use it or extend more functionality to it follow step by step
 
-* System dependencies
+clone the repository to your local system.
 
-* Configuration
+once done install all the dependencies by running
 
-* Database creation
+`bundle install`
 
-* Database initialization
+Run all the migrations
 
-* How to run the test suite
+`bundle exec rake db:migrate`
 
-* Services (job queues, cache servers, search engines, etc.)
+Run rails server by running below command
 
-* Deployment instructions
+`rails s`
 
-* ...
+App will run on `localhost:3000`
+
+Thanks @severinkaelin to upgrade it to rails 5.2
+
+Please raise a PR for any bug fix or new features or upgrades
+
+
+Requirements - 
+`rails 5.2.1`
+`ruby >= 2.4.2`
